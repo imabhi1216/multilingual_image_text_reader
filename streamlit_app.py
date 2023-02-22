@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 from gtts import gTTS
 import easyocr
-reader = easyocr.Reader(['en']) # this needs to run only once to load the model into memory
+reader = easyocr.Reader(['en','bho',"bn",'hi','mr','te','ta']) # this needs to run only once to load the model into memory
 # from pytesseract import pytesseract
 from deep_translator import GoogleTranslator
 # path_to_tesseract = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
