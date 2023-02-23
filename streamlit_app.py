@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 from gtts import gTTS
 import easyocr
-reader = easyocr.Reader(['en']) # this needs to run only once to load the model into memory
+reader = easyocr.Reader(['hi','en']) # this needs to run only once to load the model into memory
 from deep_translator import GoogleTranslator
 
 
